@@ -8,14 +8,10 @@ using Tutorial.Repositories.RepositoryImpl;
 using Tutorial.Service.ServiceImpl;
 using Swashbuckle.AspNetCore.SwaggerUI; // Add this using directive
 using Swashbuckle.AspNetCore.SwaggerGen; // Add this using directive
-using Swashbuckle.AspNetCore.SwaggerUI; // Remove this using directive
-using Swashbuckle.AspNetCore.SwaggerGen; // Remove this using directive
 using Swashbuckle.AspNetCore.Swagger; // Add this using directive
 var builder = WebApplication.CreateBuilder(args);
 
-// --------------------
 // Add services to the container
-// --------------------
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 
@@ -32,17 +28,15 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// --------------------
 // Add DbContext
-// --------------------
+
 builder.Services.AddDbContext<CourseDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// --------------------
 // Configure the HTTP request pipeline
-// --------------------
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -62,14 +56,5 @@ app.MapControllers();
 app.Run();
 
 
-// ... rest of your code ...
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Tutorial API v1");
-        c.RoutePrefix = string.Empty; // Swagger opens at root "/"
-    });
-}
+
