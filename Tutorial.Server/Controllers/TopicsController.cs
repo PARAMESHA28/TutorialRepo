@@ -43,9 +43,9 @@ namespace Tutorial.Server.Controllers
 
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, Topic topic)
+        public async Task<IActionResult> Update(int id, TopicDto topicDto)
         {
-            if (id != topic.TopicId)
+            if (id != topicDto.TopicId)
             {
                 return BadRequest();
             }
@@ -54,7 +54,7 @@ namespace Tutorial.Server.Controllers
             {
                 return NotFound();
             }
-            await _topicService.Update(topic);
+            await _topicService.Update(topicDto);
             return NoContent();
         }
         [HttpDelete("{id}")]

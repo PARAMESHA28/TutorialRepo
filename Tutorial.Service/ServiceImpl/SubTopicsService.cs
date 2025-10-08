@@ -29,7 +29,7 @@ namespace Tutorial.Service.ServiceImpl
         {
             return await _subTopicRepository.Create(subTopicsDto);
         }
-        public async Task<SubTopic> UpdateSubTopic(SubTopicsDto subTopic)
+        public async Task<SubTopicsDto> UpdateSubTopic(SubTopicsDto subTopic)
         {
             return await _subTopicRepository.Update(subTopic);
         }

@@ -14,10 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<IContentService, ContentService>();
-
-builder.Services.AddScoped<IContentRepository, ContentRepository>();
+builder.Services.AddScoped<ISubTopicsService, SubTopicsService>();
 builder.Services.AddScoped<ITopicService, TopicService>();
 
+builder.Services.AddScoped<IContentRepository, ContentRepository>();
+builder.Services.AddScoped<ISubTopicRepository, SubTopicRepository>();
 builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<ITopicRepository, TopicRepository>();
 

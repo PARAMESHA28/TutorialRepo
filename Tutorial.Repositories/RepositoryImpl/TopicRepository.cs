@@ -48,17 +48,24 @@ namespace Tutorial.Repositories.RepositoryImpl
             };
             return createdtopic;
         }
-        public async Task<Topic> UpdateTopic(Topic topic)
+        public async Task<TopicDto> UpdateTopic(TopicDto topicDto)
         {
-            var existingTopic = await _courseDbContext.Topics.FindAsync(topic.TopicId);
+            var existingTopic = await _courseDbContext.Topics.FindAsync(topicDto.TopicId);
             if (existingTopic == null)
             {
                 return null;
             }
-            existingTopic.TopicName = topic.TopicName;
-            existingTopic.CourseId = topic.CourseId;
-            existingTopic.TopicsOrder = topic.TopicsOrder; 
-            return existingTopic;
+            existingTopic.TopicName = topicDto.TopicName;
+            existingTopic.CourseId = topicDto.CourseId;
+            existingTopic.TopicsOrder = topicDto.TopicsOrder;
+            await _courseDbContext.SaveChangesAsync();
+            return new TopicDto
+            {
+                TopicId = topicDto.TopicId,
+                TopicName = topicDto.TopicName,
+                CourseId = topicDto.CourseId,
+                TopicsOrder = topicDto.TopicsOrder
+            };
         }
         public async Task<Topic> DeleteTopicById(int id)
         {

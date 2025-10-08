@@ -48,7 +48,7 @@ namespace Tutorial.Repositories.RepositoryImpl
             };
             return createdSubTopic;
         }
-        public async Task<SubTopic> Update(SubTopicsDto subTopic)
+        public async Task<SubTopicsDto> Update(SubTopicsDto subTopic)
         {
             var existingSubTopic = await _courseDbContext.SubTopics.FindAsync(subTopic.TopicId);
             if (existingSubTopic == null)
@@ -58,7 +58,15 @@ namespace Tutorial.Repositories.RepositoryImpl
             existingSubTopic.SubTopicName = subTopic.SubTopicName;
             existingSubTopic.TopicId = subTopic.TopicId;
             existingSubTopic.SubTopicsOrder = subTopic.SubTopicsOrder;
-            return existingSubTopic;
+            await _courseDbContext.SaveChangesAsync();
+
+            return new SubTopicsDto
+            {
+                SubTopicId  = existingSubTopic.SubTopicId,
+                SubTopicName= existingSubTopic.SubTopicName,
+                TopicId = existingSubTopic.TopicId,
+                SubTopicsOrder= existingSubTopic.SubTopicsOrder,
+            };
         }
         public async Task<SubTopic> DeleteById(int id)
         {

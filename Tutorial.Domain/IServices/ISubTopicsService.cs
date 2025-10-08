@@ -13,7 +13,7 @@ namespace Tutorial.Domain.IServices
         Task<IEnumerable<SubTopic>> GetSubTopicsAsync();
         Task<SubTopic> GetSubTopicByIdAsync(int id);
         Task<SubTopicsDto> CreateSubTopic(SubTopicsDto subTopicsDto);
-        Task<SubTopic> UpdateSubTopic(SubTopicsDto subTopicDto);
+        Task<SubTopicsDto> UpdateSubTopic(SubTopicsDto subTopicDto);
         Task<SubTopic> DeleteSubTopicByIdAsync(int id);
     }
 }

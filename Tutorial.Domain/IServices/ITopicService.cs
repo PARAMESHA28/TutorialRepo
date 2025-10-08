@@ -13,7 +13,7 @@ namespace Tutorial.Domain.IServices
         Task<IEnumerable<Topic>> GetAll();
         Task<Topic> GetById(int id);
         Task<TopicDto> Create(TopicDto topicDto);
-        Task<Topic> Update(Topic topic);
+        Task<TopicDto> Update(TopicDto topicDto);
         Task<Topic> DeleteById(int id);
     }
 }

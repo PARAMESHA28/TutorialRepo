@@ -13,7 +13,7 @@ namespace Tutorial.Domain.IRepositories
         Task<IEnumerable<Topic>> GetAllTopics();
         Task<Topic> GetTopicById(int id);
         Task<TopicDto> CreateTopic(TopicDto topic);
-        Task<Topic> UpdateTopic(Topic topic);
+        Task<TopicDto> UpdateTopic(TopicDto topic);
         Task<Topic> DeleteTopicById(int id);
     }
 }

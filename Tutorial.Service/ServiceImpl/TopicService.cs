@@ -29,9 +29,9 @@ namespace Tutorial.Service.ServiceImpl
         {
             return await _repository.CreateTopic(topicDto);
         }
-        public async Task<Topic> Update(Topic topic)
+        public async Task<TopicDto> Update(TopicDto topicDto)
         {
-            return await _repository.UpdateTopic(topic);
+            return await _repository.UpdateTopic(topicDto);
         }
         public async Task<Topic> DeleteById(int id)
         {

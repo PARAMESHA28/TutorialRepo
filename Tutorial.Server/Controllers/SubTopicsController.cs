@@ -37,13 +37,13 @@ namespace Tutorial.Server.Controllers
         {
             var createdTopic = await _subTopicsService.CreateSubTopic(topicDto);
 
-            return CreatedAtAction(nameof(GetById), new { id = createdTopic.TopicId }, createdTopic);
+            return CreatedAtAction(nameof(GetById), new { id = createdTopic.SubTopicId }, createdTopic);
 
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, SubTopicsDto topic)
         {
-            if (id != topic.TopicId)
+            if (id != topic.SubTopicId)
             {
                 return BadRequest();
             }
