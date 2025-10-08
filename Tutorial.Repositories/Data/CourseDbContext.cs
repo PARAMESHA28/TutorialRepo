@@ -16,8 +16,9 @@ namespace Tutorial.Repositories.Data
         }
         // Define DbSets for your entities here
          public DbSet<Course> Courses{ get; set; }
-            public DbSet<Topic> Topic{ get; set; }
-            public DbSet<Content> Contents{ get; set; }
+         public DbSet<Topic> Topics{ get; set; }
+         public DbSet<Content> Contents{ get; set; }
+         public DbSet<SubTopic> SubTopics{ get; set; }
 
 
     }

@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Tutorial.Domain.Models.Dtos
 {
-    public class TopicDto
+    public class SubTopicsDto
     {
+        public int SubTopicId { get; set; }
+        public string SubTopicName { get; set; }
+        public int SubTopicsOrder { get; set; }
         public int TopicId { get; set; }
-        public string TopicName { get; set; }
-        public int CourseId { get; set; }
-        public int TopicsOrder { get; set; }
-
-
     }
 }

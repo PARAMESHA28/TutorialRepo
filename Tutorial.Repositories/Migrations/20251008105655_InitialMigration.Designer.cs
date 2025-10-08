@@ -11,8 +11,8 @@ using Tutorial.Repositories.Data;
 namespace Tutorial.Repositories.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    [Migration("20251008083353_initialMigration")]
-    partial class initialMigration
+    [Migration("20251008105655_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -93,7 +93,7 @@ namespace Tutorial.Repositories.Migrations
 
                     b.HasIndex("TopicId");
 
-                    b.ToTable("SubTopic");
+                    b.ToTable("SubTopics");
                 });
 
             modelBuilder.Entity("Tutorial.Domain.Models.Topic", b =>
@@ -118,7 +118,7 @@ namespace Tutorial.Repositories.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Topic");
+                    b.ToTable("Topics");
                 });
 
             modelBuilder.Entity("Tutorial.Domain.Models.Content", b =>

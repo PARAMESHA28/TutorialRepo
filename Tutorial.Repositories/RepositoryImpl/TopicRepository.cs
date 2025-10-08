@@ -20,49 +20,54 @@ namespace Tutorial.Repositories.RepositoryImpl
         }
         public async Task<IEnumerable<Topic>> GetAllTopics()
         {
-            return await _courseDbContext.Topic.ToListAsync();
+            return await _courseDbContext.Topics.ToListAsync();
         }
         public async Task<Topic> GetTopicById(int id)
         {
-            return await _courseDbContext.Topic.FindAsync(id);
+            return await _courseDbContext.Topics.FindAsync(id);
         }
         public async Task<TopicDto> CreateTopic(TopicDto topic)
         {
             var topics = new Topic
             {
                 TopicName = topic.TopicName,
-                CourseId = topic.CourseId
+                CourseId = topic.CourseId,
+                TopicsOrder=topic.TopicsOrder
+
             };
-            _courseDbContext.Topic.Add(topics);
+            _courseDbContext.Topics.Add(topics);
             await _courseDbContext.SaveChangesAsync();
 
             var createdtopic = new TopicDto
             {
                 TopicId = topics.TopicId,
                 TopicName = topics.TopicName,
-                CourseId = topics.CourseId
+                CourseId = topics.CourseId,
+                TopicsOrder=topics.TopicsOrder
+
             };
             return createdtopic;
         }
         public async Task<Topic> UpdateTopic(Topic topic)
         {
-            var existingTopic = await _courseDbContext.Topic.FindAsync(topic.TopicId);
+            var existingTopic = await _courseDbContext.Topics.FindAsync(topic.TopicId);
             if (existingTopic == null)
             {
                 return null;
             }
             existingTopic.TopicName = topic.TopicName;
             existingTopic.CourseId = topic.CourseId;
+            existingTopic.TopicsOrder = topic.TopicsOrder; 
             return existingTopic;
         }
         public async Task<Topic> DeleteTopicById(int id)
         {
-            var topic = _courseDbContext.Topic.Find(id);
+            var topic = _courseDbContext.Topics.Find(id);
             if(topic == null)
             {
                 return null;
             }
-            _courseDbContext.Topic.Remove(topic);
+            _courseDbContext.Topics.Remove(topic);
             await _courseDbContext.SaveChangesAsync();
             return topic;
         }

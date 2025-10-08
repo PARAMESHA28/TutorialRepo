@@ -90,7 +90,7 @@ namespace Tutorial.Repositories.Migrations
 
                     b.HasIndex("TopicId");
 
-                    b.ToTable("SubTopic");
+                    b.ToTable("SubTopics");
                 });
 
             modelBuilder.Entity("Tutorial.Domain.Models.Topic", b =>
@@ -115,7 +115,7 @@ namespace Tutorial.Repositories.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Topic");
+                    b.ToTable("Topics");
                 });
 
             modelBuilder.Entity("Tutorial.Domain.Models.Content", b =>

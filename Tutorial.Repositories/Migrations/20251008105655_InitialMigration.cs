@@ -5,7 +5,7 @@
 namespace Tutorial.Repositories.Migrations
 {
     /// <inheritdoc />
-    public partial class initialMigration : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -25,7 +25,7 @@ namespace Tutorial.Repositories.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Topic",
+                name: "Topics",
                 columns: table => new
                 {
                     TopicId = table.Column<int>(type: "int", nullable: false)
@@ -36,9 +36,9 @@ namespace Tutorial.Repositories.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Topic", x => x.TopicId);
+                    table.PrimaryKey("PK_Topics", x => x.TopicId);
                     table.ForeignKey(
-                        name: "FK_Topic_Courses_CourseId",
+                        name: "FK_Topics_Courses_CourseId",
                         column: x => x.CourseId,
                         principalTable: "Courses",
                         principalColumn: "CourseId",
@@ -46,7 +46,7 @@ namespace Tutorial.Repositories.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "SubTopic",
+                name: "SubTopics",
                 columns: table => new
                 {
                     SubTopicId = table.Column<int>(type: "int", nullable: false)
@@ -57,11 +57,11 @@ namespace Tutorial.Repositories.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_SubTopic", x => x.SubTopicId);
+                    table.PrimaryKey("PK_SubTopics", x => x.SubTopicId);
                     table.ForeignKey(
-                        name: "FK_SubTopic_Topic_TopicId",
+                        name: "FK_SubTopics_Topics_TopicId",
                         column: x => x.TopicId,
-                        principalTable: "Topic",
+                        principalTable: "Topics",
                         principalColumn: "TopicId",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -80,9 +80,9 @@ namespace Tutorial.Repositories.Migrations
                 {
                     table.PrimaryKey("PK_Contents", x => x.ContentId);
                     table.ForeignKey(
-                        name: "FK_Contents_SubTopic_SubTopicId",
+                        name: "FK_Contents_SubTopics_SubTopicId",
                         column: x => x.SubTopicId,
-                        principalTable: "SubTopic",
+                        principalTable: "SubTopics",
                         principalColumn: "SubTopicId",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -93,13 +93,13 @@ namespace Tutorial.Repositories.Migrations
                 column: "SubTopicId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SubTopic_TopicId",
-                table: "SubTopic",
+                name: "IX_SubTopics_TopicId",
+                table: "SubTopics",
                 column: "TopicId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Topic_CourseId",
-                table: "Topic",
+                name: "IX_Topics_CourseId",
+                table: "Topics",
                 column: "CourseId");
         }
 
@@ -110,10 +110,10 @@ namespace Tutorial.Repositories.Migrations
                 name: "Contents");
 
             migrationBuilder.DropTable(
-                name: "SubTopic");
+                name: "SubTopics");
 
             migrationBuilder.DropTable(
-                name: "Topic");
+                name: "Topics");
 
             migrationBuilder.DropTable(
                 name: "Courses");
