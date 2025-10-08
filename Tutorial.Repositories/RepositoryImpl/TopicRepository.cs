@@ -35,7 +35,14 @@ namespace Tutorial.Repositories.RepositoryImpl
             };
             _courseDbContext.Topic.Add(topics);
             await _courseDbContext.SaveChangesAsync();
-            return topic;
+
+            var createdtopic = new TopicDto
+            {
+                TopicId = topics.TopicId,
+                TopicName = topics.TopicName,
+                CourseId = topics.CourseId
+            };
+            return createdtopic;
         }
         public async Task<Topic> UpdateTopic(Topic topic)
         {

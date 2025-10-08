@@ -11,8 +11,8 @@ using Tutorial.Repositories.Data;
 namespace Tutorial.Repositories.Migrations
 {
     [DbContext(typeof(CourseDbContext))]
-    [Migration("20251001070630_initialDb")]
-    partial class initialDb
+    [Migration("20251008083353_initialMigration")]
+    partial class initialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,20 +36,16 @@ namespace Tutorial.Repositories.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ResourceUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("SubTopicId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TopicId")
-                        .HasColumnType("int");
-
                     b.HasKey("ContentId");
 
-                    b.HasIndex("TopicId");
+                    b.HasIndex("SubTopicId");
 
                     b.ToTable("Contents");
                 });
@@ -75,6 +71,31 @@ namespace Tutorial.Repositories.Migrations
                     b.ToTable("Courses");
                 });
 
+            modelBuilder.Entity("Tutorial.Domain.Models.SubTopic", b =>
+                {
+                    b.Property<int>("SubTopicId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubTopicId"));
+
+                    b.Property<string>("SubTopicName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SubTopicsOrder")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TopicId")
+                        .HasColumnType("int");
+
+                    b.HasKey("SubTopicId");
+
+                    b.HasIndex("TopicId");
+
+                    b.ToTable("SubTopic");
+                });
+
             modelBuilder.Entity("Tutorial.Domain.Models.Topic", b =>
                 {
                     b.Property<int>("TopicId")
@@ -90,6 +111,9 @@ namespace Tutorial.Repositories.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("TopicsOrder")
+                        .HasColumnType("int");
+
                     b.HasKey("TopicId");
 
                     b.HasIndex("CourseId");
@@ -99,8 +123,19 @@ namespace Tutorial.Repositories.Migrations
 
             modelBuilder.Entity("Tutorial.Domain.Models.Content", b =>
                 {
-                    b.HasOne("Tutorial.Domain.Models.Topic", "Topic")
+                    b.HasOne("Tutorial.Domain.Models.SubTopic", "SubTopic")
                         .WithMany("Contents")
+                        .HasForeignKey("SubTopicId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SubTopic");
+                });
+
+            modelBuilder.Entity("Tutorial.Domain.Models.SubTopic", b =>
+                {
+                    b.HasOne("Tutorial.Domain.Models.Topic", "Topic")
+                        .WithMany("SubTopics")
                         .HasForeignKey("TopicId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -111,7 +146,7 @@ namespace Tutorial.Repositories.Migrations
             modelBuilder.Entity("Tutorial.Domain.Models.Topic", b =>
                 {
                     b.HasOne("Tutorial.Domain.Models.Course", "Course")
-                        .WithMany("Topic")
+                        .WithMany("Topics")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -121,12 +156,17 @@ namespace Tutorial.Repositories.Migrations
 
             modelBuilder.Entity("Tutorial.Domain.Models.Course", b =>
                 {
-                    b.Navigation("Topic");
+                    b.Navigation("Topics");
+                });
+
+            modelBuilder.Entity("Tutorial.Domain.Models.SubTopic", b =>
+                {
+                    b.Navigation("Contents");
                 });
 
             modelBuilder.Entity("Tutorial.Domain.Models.Topic", b =>
                 {
-                    b.Navigation("Contents");
+                    b.Navigation("SubTopics");
                 });
 #pragma warning restore 612, 618
         }

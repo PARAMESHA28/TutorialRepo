@@ -5,7 +5,7 @@
 namespace Tutorial.Repositories.Migrations
 {
     /// <inheritdoc />
-    public partial class initialDb : Migration
+    public partial class initialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,7 +31,8 @@ namespace Tutorial.Repositories.Migrations
                     TopicId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TopicName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CourseId = table.Column<int>(type: "int", nullable: false)
+                    CourseId = table.Column<int>(type: "int", nullable: false),
+                    TopicsOrder = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -45,6 +46,27 @@ namespace Tutorial.Repositories.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "SubTopic",
+                columns: table => new
+                {
+                    SubTopicId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    SubTopicName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SubTopicsOrder = table.Column<int>(type: "int", nullable: false),
+                    TopicId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SubTopic", x => x.SubTopicId);
+                    table.ForeignKey(
+                        name: "FK_SubTopic_Topic_TopicId",
+                        column: x => x.TopicId,
+                        principalTable: "Topic",
+                        principalColumn: "TopicId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Contents",
                 columns: table => new
                 {
@@ -52,23 +74,27 @@ namespace Tutorial.Repositories.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Body = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TopicId = table.Column<int>(type: "int", nullable: false),
-                    ResourceUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    SubTopicId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Contents", x => x.ContentId);
                     table.ForeignKey(
-                        name: "FK_Contents_Topic_TopicId",
-                        column: x => x.TopicId,
-                        principalTable: "Topic",
-                        principalColumn: "TopicId",
+                        name: "FK_Contents_SubTopic_SubTopicId",
+                        column: x => x.SubTopicId,
+                        principalTable: "SubTopic",
+                        principalColumn: "SubTopicId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Contents_TopicId",
+                name: "IX_Contents_SubTopicId",
                 table: "Contents",
+                column: "SubTopicId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_SubTopic_TopicId",
+                table: "SubTopic",
                 column: "TopicId");
 
             migrationBuilder.CreateIndex(
@@ -82,6 +108,9 @@ namespace Tutorial.Repositories.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Contents");
+
+            migrationBuilder.DropTable(
+                name: "SubTopic");
 
             migrationBuilder.DropTable(
                 name: "Topic");

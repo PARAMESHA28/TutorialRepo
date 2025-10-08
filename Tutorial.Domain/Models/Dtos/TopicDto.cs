@@ -11,5 +11,6 @@ namespace Tutorial.Domain.Models.Dtos
         public int TopicId { get; set; }
         public string TopicName { get; set; }
         public int CourseId { get; set; }
+        
     }
 }

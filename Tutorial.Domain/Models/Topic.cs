@@ -12,12 +12,12 @@ namespace Tutorial.Domain.Models
         
         public int TopicId { get; set; }
         public string TopicName { get; set; }
-        public int CourseId { get; set; } // Foreign key to Course
+        public int CourseId { get; set; } 
        
         public Course Course { get; set; }
-
+        public int TopicsOrder { get; set; }
+        public ICollection<SubTopic> SubTopics { get; set; }
        
-        public ICollection<Content> Contents { get; set; }
 
     }
 }

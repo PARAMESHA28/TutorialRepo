@@ -12,10 +12,6 @@ namespace Tutorial.Domain.Models
         public int CourseId { get; set; }
         public string CourseName { get; set; }
         public string Description { get; set; }
-        //public DateTime StartDate { get; set; }
-        //public DateTime EndDate { get; set; }
-        //public int Credits { get; set; }
-       
-        public ICollection<Topic> Topic { get; set; }
+        public ICollection<Topic> Topics { get; set; }
     }
 }

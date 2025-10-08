@@ -12,7 +12,6 @@ namespace Tutorial.Domain.Models.Dtos
 
         public string Title { get; set; }
         public string Body { get; set; }
-        public int TopicId { get; set; }    
-        public string ResourceUrl { get; set; }
+        public int SubTopicId { get; set; }    
     }
 }

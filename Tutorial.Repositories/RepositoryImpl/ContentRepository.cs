@@ -23,8 +23,7 @@ namespace Tutorial.Repositories.RepositoryImpl
             {
                 Title = contentDto.Title,
                 Body = contentDto.Body,
-                ResourceUrl = contentDto.ResourceUrl,
-                TopicId = contentDto.TopicId
+                SubTopicId = contentDto.SubTopicId
             };
             _context.Contents.Add(content);
             await _context.SaveChangesAsync();
@@ -62,8 +61,7 @@ namespace Tutorial.Repositories.RepositoryImpl
             }
             existingContent.Title = content.Title;
             existingContent.Body = content.Body;
-            existingContent.ResourceUrl = content.ResourceUrl;
-            existingContent.TopicId = content.TopicId;
+            existingContent.SubTopicId = content.SubTopicId;
             await _context.SaveChangesAsync();
 
             // Map Content to ContentDto before returning
@@ -72,8 +70,7 @@ namespace Tutorial.Repositories.RepositoryImpl
                 Id = existingContent.ContentId,
                 Title = existingContent.Title,
                 Body = existingContent.Body,
-                ResourceUrl = existingContent.ResourceUrl,
-                TopicId = existingContent.TopicId
+                SubTopicId = existingContent.SubTopicId
             };
         }
 

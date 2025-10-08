@@ -11,8 +11,7 @@ namespace Tutorial.Domain.Models
         public int ContentId { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
-        public int TopicId { get; set; }
-        public Topic Topic { get; set; }
-        public string ResourceUrl { get; set; }
+        public int SubTopicId { get; set; }
+        public SubTopic SubTopic { get; set; }
     }
 }
