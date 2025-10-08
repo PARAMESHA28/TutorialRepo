@@ -12,7 +12,7 @@ namespace Tutorial.Domain.IRepositories
     {
         Task<Course> GetByIdAsync(int id);
         Task<CourseDto> CreateAsync(CourseDto course);
-        Task<Course> UpdateAsync(Course course);
+        Task<CourseDto> UpdateAsync(CourseDto course);
         Task<Course> DeleteAsync(int id);
         Task<IEnumerable<Course>> GetAllAsync();
     }

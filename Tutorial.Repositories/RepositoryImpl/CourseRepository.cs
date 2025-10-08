@@ -52,7 +52,7 @@ namespace Tutorial.Repositories.RepositoryImpl
         {
             return await _context.Courses.FindAsync(id);
         }
-        public async Task<Course> UpdateAsync(Course course)
+        public async Task<CourseDto> UpdateAsync(CourseDto course)
         {
             var existingCourse = await _context.Courses.FindAsync(course.CourseId);
             if (existingCourse == null)
@@ -62,7 +62,15 @@ namespace Tutorial.Repositories.RepositoryImpl
             existingCourse.CourseName = course.CourseName;
             existingCourse.Description = course.Description;
             await _context.SaveChangesAsync();
-            return existingCourse;
+
+           
+            return new CourseDto
+            {
+                CourseId = existingCourse.CourseId,
+                CourseName = existingCourse.CourseName,
+                Description = existingCourse.Description
+              
+            };
         }
     }
 }

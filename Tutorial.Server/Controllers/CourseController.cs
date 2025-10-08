@@ -35,7 +35,7 @@ namespace Tutorial.Server.Controllers
 
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, Course course)
+        public async Task<IActionResult> Update(int id, CourseDto course)
         {
             if (id != course.CourseId)
             {

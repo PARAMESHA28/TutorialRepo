@@ -34,7 +34,7 @@ namespace Tutorial.Service.ServiceImpl
             return _courseRepository.GetAllAsync();
         }
 
-        public Task<Course> UpdateAsync(Course course)
+        public Task<CourseDto> UpdateAsync(CourseDto course)
         {
                        return _courseRepository.UpdateAsync(course);
         }
