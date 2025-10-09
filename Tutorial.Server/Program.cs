@@ -6,9 +6,7 @@ using Tutorial.Domain.IServices;
 using Tutorial.Repositories.Data;
 using Tutorial.Repositories.RepositoryImpl;
 using Tutorial.Service.ServiceImpl;
-using Swashbuckle.AspNetCore.SwaggerUI; // Add this using directive
-using Swashbuckle.AspNetCore.SwaggerGen; // Add this using directive
-using Swashbuckle.AspNetCore.Swagger; // Add this using directive
+using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
@@ -24,6 +22,12 @@ builder.Services.AddScoped<ITopicRepository, TopicRepository>();
 
 builder.Services.AddControllers();
 
+//configure serilog
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+builder.Host.UseSerilog();
+
 // Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -34,6 +38,17 @@ builder.Services.AddSwaggerGen(c =>
         Version = "v1"
     });
 });
+//allow Cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 
 // Add DbContext
 
@@ -54,13 +69,30 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseCors("AllowAll");
 
-app.Run();
+
+try
+{
+    Log.Information("Tutorial Service Running");
+    app.Run();
+
+}
+catch(Exception ex)
+{
+    Log.Fatal(ex, "Tutorial Service Failed to Start");
+}
+finally
+{
+    Log.CloseAndFlush();
+}
+
 
 
 
