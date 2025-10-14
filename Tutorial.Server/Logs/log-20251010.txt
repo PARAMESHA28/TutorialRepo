@@ -1,0 +1,12 @@
+2025-10-10 15:27:14.629 +05:30 [INF] Tutorial Service Running
+2025-10-10 15:27:14.949 +05:30 [INF] Now listening on: http://localhost:8080
+2025-10-10 15:27:14.952 +05:30 [INF] Now listening on: https://localhost:5050
+2025-10-10 15:27:15.053 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-10 15:27:15.054 +05:30 [INF] Hosting environment: Development
+2025-10-10 15:27:15.055 +05:30 [INF] Content root path: C:\Users\VSOFT\OneDrive - V Software Consulting inc\Downloads\Param\MicroServices\TutorialRepo\Tutorial.Server
+2025-10-10 15:27:15.997 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2025-10-10 15:27:15.997 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-10 15:27:16.056 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 28.6972ms
+2025-10-10 15:27:16.156 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 167.3639ms
+2025-10-10 15:27:16.212 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2025-10-10 15:27:16.251 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.2194ms

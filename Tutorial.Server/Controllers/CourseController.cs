@@ -8,6 +8,7 @@ using Tutorial.Domain.Models.Dtos;
 namespace Tutorial.Server.Controllers
 {
     [Route("api/[controller]")]
+    //[Route("api/Course")]
     [ApiController]
     public class CourseController : ControllerBase
     {
