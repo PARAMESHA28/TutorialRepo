@@ -17,6 +17,7 @@ namespace Tutorial.Server.Controllers
         {
             _topicService = topicService;
         }
+
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -24,6 +25,7 @@ namespace Tutorial.Server.Controllers
             return Ok(topics);
 
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -34,6 +36,20 @@ namespace Tutorial.Server.Controllers
             }
             return Ok(topic);
         }
+
+        [HttpGet("ByCourse/{courseId}")]
+        public async Task<IActionResult> GetTopicsByCourse(int courseId)
+        {
+            var topics = await _topicService.GetTopicsByCourseId(courseId);
+
+            if ( topics == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(topics);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(TopicDto topicDto)
         {
@@ -42,6 +58,7 @@ namespace Tutorial.Server.Controllers
             return CreatedAtAction(nameof(GetById), new { id = createdTopic.TopicId }, createdTopic);
 
         }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, TopicDto topicDto)
         {
@@ -57,6 +74,7 @@ namespace Tutorial.Server.Controllers
             await _topicService.Update(topicDto);
             return NoContent();
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

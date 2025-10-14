@@ -15,5 +15,6 @@ namespace Tutorial.Domain.IServices
         Task<TopicDto> Create(TopicDto topicDto);
         Task<TopicDto> Update(TopicDto topicDto);
         Task<Topic> DeleteById(int id);
+        Task<IEnumerable<Topic>> GetTopicsByCourseId(int courseId);
     }
 }

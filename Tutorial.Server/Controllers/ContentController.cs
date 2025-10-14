@@ -24,18 +24,21 @@ namespace Tutorial.Server.Controllers
             var contents = await _contentService.GetAllAsync();
             return Ok(contents);
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var contents = await _contentService.GetByIdAsync(id);
             return Ok(contents);
         }
+
         [HttpPost]
         public async Task<IActionResult> Created(ContentDto contentdto)
         {
             var created =await _contentService.CreatedAsync(contentdto);
             return Ok(created);
         }
+
         [HttpPut]
         public async Task<IActionResult> Updated(int id, ContentDto content)
         {
@@ -52,6 +55,7 @@ namespace Tutorial.Server.Controllers
             var updatedContent = await _contentService.UpdateByAsync(content);
             return Ok(updatedContent);
         }
+
         [HttpDelete]
         public async Task<IActionResult> Deleted(int id)
         {

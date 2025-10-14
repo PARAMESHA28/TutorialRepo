@@ -15,6 +15,7 @@ namespace Tutorial.Server.Controllers
         {
             _subTopicsService = subTopicsService;
         }
+
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -22,6 +23,7 @@ namespace Tutorial.Server.Controllers
             return Ok(subTopics);
 
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -32,6 +34,7 @@ namespace Tutorial.Server.Controllers
             }
             return Ok(topic);
         }
+
         [HttpPost]
         public async Task<IActionResult> Create(SubTopicsDto topicDto)
         {
@@ -40,6 +43,7 @@ namespace Tutorial.Server.Controllers
             return CreatedAtAction(nameof(GetById), new { id = createdTopic.SubTopicId }, createdTopic);
 
         }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, SubTopicsDto topic)
         {
@@ -55,6 +59,7 @@ namespace Tutorial.Server.Controllers
             await _subTopicsService.UpdateSubTopic(topic);
             return NoContent();
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

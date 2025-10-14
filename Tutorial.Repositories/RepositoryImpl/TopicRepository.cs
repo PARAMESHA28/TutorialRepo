@@ -26,6 +26,13 @@ namespace Tutorial.Repositories.RepositoryImpl
         {
             return await _courseDbContext.Topics.FindAsync(id);
         }
+        public async Task<IEnumerable<Topic>> GetAllTopicsByCorseId(int courseId)
+        {
+        return await _courseDbContext.Topics
+        .Where(t => t.CourseId == courseId)
+        .ToListAsync();
+        }
+
         public async Task<TopicDto> CreateTopic(TopicDto topic)
         {
             var topics = new Topic

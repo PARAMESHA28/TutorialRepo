@@ -15,5 +15,6 @@ namespace Tutorial.Domain.IServices
         Task<CourseDto> UpdateAsync(CourseDto course);
         Task<Course> DeleteAsync(int id);
         Task<IEnumerable<Course>> GetAllAsync();
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Tutorial.Domain.IServices;
 using Tutorial.Domain.Models;
 using Tutorial.Domain.Models.Dtos;
@@ -16,6 +17,14 @@ namespace Tutorial.Server.Controllers
             _courseService = courseService;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var courses = await _courseService.GetAllAsync();
+            return Ok(courses);
+
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -26,6 +35,7 @@ namespace Tutorial.Server.Controllers
             }
             return Ok(course);
         }
+
         [HttpPost]
         public async Task<IActionResult> Create(CourseDto coursedto)
         {
@@ -34,6 +44,7 @@ namespace Tutorial.Server.Controllers
             return CreatedAtAction(nameof(GetById), new { id = createdCourse.CourseId }, createdCourse);
 
         }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, CourseDto course)
         {
@@ -49,6 +60,7 @@ namespace Tutorial.Server.Controllers
             await _courseService.UpdateAsync(course);
             return NoContent();
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -60,12 +72,6 @@ namespace Tutorial.Server.Controllers
             await _courseService.DeleteAsync(id);
             return NoContent();
         }
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            var courses = await _courseService.GetAllAsync();
-            return Ok(courses);
-
-        }
+        
     }
 }

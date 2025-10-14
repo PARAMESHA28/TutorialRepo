@@ -12,11 +12,12 @@ namespace Tutorial.Domain.Models
         
         public int TopicId { get; set; }
         public string TopicName { get; set; }
-        public int CourseId { get; set; } 
-       
-        public Course Course { get; set; }
+        public int CourseId { get; set; }
+        [JsonIgnore]
+        public Course? Course { get; set; }
         public int TopicsOrder { get; set; }
-        public ICollection<SubTopic> SubTopics { get; set; }
+        [JsonIgnore]
+        public ICollection<SubTopic?> SubTopics { get; set; }
        
 
     }
