@@ -28,6 +28,13 @@ namespace Tutorial.Repositories.RepositoryImpl
             return await _courseDbContext.SubTopics.FindAsync(id);
 
         }
+        public async Task<IEnumerable<SubTopic>> GetByTopicId(int topicId)
+        {
+            return await _courseDbContext.SubTopics.
+                Where(t => t.TopicId == topicId)
+                .ToListAsync();
+        }
+
         public async Task<SubTopicsDto> Create(SubTopicsDto subTopicDto)
         {
             var subtopics = new SubTopic

@@ -35,6 +35,19 @@ namespace Tutorial.Server.Controllers
             return Ok(topic);
         }
 
+        [HttpGet("ByTopic/{topicId}")]
+        public async Task<IActionResult> GetSubTopicsByTopic(int topicId)
+        {
+            var subTopics = await _subTopicsService.GetSubTopicsByTopicId(topicId);
+
+            if (subTopics == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(subTopics);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(SubTopicsDto topicDto)
         {

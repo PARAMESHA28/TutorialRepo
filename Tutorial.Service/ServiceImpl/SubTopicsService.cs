@@ -25,6 +25,11 @@ namespace Tutorial.Service.ServiceImpl
         {
             return await _subTopicRepository.GetById(id);
         }
+        public async Task<IEnumerable<SubTopic>> GetSubTopicsByTopicId(int topicId)
+        {
+            return await _subTopicRepository.GetByTopicId(topicId);
+        }
+
         public async Task<SubTopicsDto> CreateSubTopic(SubTopicsDto subTopicsDto)
         {
             return await _subTopicRepository.Create(subTopicsDto);
