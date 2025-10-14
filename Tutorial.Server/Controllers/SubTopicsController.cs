@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Tutorial.Domain.IServices;
+using Tutorial.Domain.Constant;
 using Tutorial.Domain.Models;
 using Tutorial.Domain.Models.Dtos;
 using Tutorial.Service.ServiceImpl;
 
 namespace Tutorial.Server.Controllers
 {
-    [Route("api/[Controller]")]
-    [ApiController]
+    [Route(RootMapConstants.BaseControllerRoute)]
     public class SubTopicsController : ControllerBase
     {
         private readonly ISubTopicsService _subTopicsService;

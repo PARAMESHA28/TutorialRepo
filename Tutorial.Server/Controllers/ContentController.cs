@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Tutorial.Domain.Constant;
 using Tutorial.Domain.IServices;
 using Tutorial.Domain.Models;
 using Tutorial.Domain.Models.Dtos;
@@ -7,8 +8,7 @@ using Tutorial.Service.ServiceImpl;
 
 namespace Tutorial.Server.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route(RootMapConstants.BaseControllerRoute)]
     public class ContentController : ControllerBase
 
     {

@@ -13,7 +13,7 @@ namespace Tutorial.Domain.IServices
         Task<Content> GetByIdAsync(int id);
         Task<ContentDto> UpdateByAsync(ContentDto content);
         Task<Content> DeleteByAsync(int id);
- Task<ContentDto> CreatedAsync(ContentDto content);
+        Task<ContentDto> CreatedAsync(ContentDto content);
         Task<IEnumerable<Content>> GetAllAsync();
     }
 }

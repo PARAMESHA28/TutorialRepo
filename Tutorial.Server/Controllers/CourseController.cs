@@ -1,15 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Tutorial.Domain.Constant;
 using Tutorial.Domain.IServices;
 using Tutorial.Domain.Models;
 using Tutorial.Domain.Models.Dtos;
 
 namespace Tutorial.Server.Controllers
 {
-    [Route("api/[controller]")]
-    //[Route("api/Course")]
-    [ApiController]
+    [Route(RootMapConstants.BaseControllerRoute)]
     public class CourseController : ControllerBase
     {
         public readonly ICourseService _courseService;
