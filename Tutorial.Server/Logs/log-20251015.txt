@@ -1,0 +1,921 @@
+2025-10-15 09:32:15.228 +05:30 [INF] Tutorial Service Running
+2025-10-15 09:32:15.707 +05:30 [INF] Now listening on: http://localhost:8080
+2025-10-15 09:32:15.711 +05:30 [INF] Now listening on: https://localhost:5050
+2025-10-15 09:32:16.027 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 09:32:16.028 +05:30 [INF] Hosting environment: Development
+2025-10-15 09:32:16.029 +05:30 [INF] Content root path: C:\Users\VSOFT\Desktop\TutorialRepo\Tutorial.Server
+2025-10-15 09:32:25.453 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_vs/browserLink - null null
+2025-10-15 09:32:25.455 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-15 09:32:25.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 66.7114ms
+2025-10-15 09:32:25.612 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.983ms
+2025-10-15 09:32:25.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2025-10-15 09:32:25.710 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.1716ms
+2025-10-15 09:32:33.469 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course - null null
+2025-10-15 09:32:33.525 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:33.533 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course - 307 0 null 64.5525ms
+2025-10-15 09:32:33.614 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course - null null
+2025-10-15 09:32:33.618 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:33.627 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:33.661 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:32:36.434 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course - null null
+2025-10-15 09:32:36.438 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:36.451 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course - 307 0 null 16.8158ms
+2025-10-15 09:32:36.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course - null null
+2025-10-15 09:32:36.466 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:36.467 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:36.468 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:32:37.099 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course - null null
+2025-10-15 09:32:37.102 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:37.103 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course - 307 0 null 4.1003ms
+2025-10-15 09:32:37.119 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course - null null
+2025-10-15 09:32:37.123 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:37.124 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:37.125 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:32:37.303 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course - null null
+2025-10-15 09:32:37.311 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:37.317 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course - 307 0 null 13.6804ms
+2025-10-15 09:32:37.318 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course - null null
+2025-10-15 09:32:37.327 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:37.328 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:37.329 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:32:37.655 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2025-10-15 09:32:37.655 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2025-10-15 09:32:37.655 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2025-10-15 09:32:37.655 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2025-10-15 09:32:37.764 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Course, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:37.764 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Course, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:37.764 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Course, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:37.764 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Course, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:37.781 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server) in 446.0663ms
+2025-10-15 09:32:37.781 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server) in 4117.1608ms
+2025-10-15 09:32:37.781 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server) in 1310.8059ms
+2025-10-15 09:32:37.781 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server) in 652.9848ms
+2025-10-15 09:32:37.782 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:37.783 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:37.785 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:37.786 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:37.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course - 499 null application/json; charset=utf-8 1338.8864ms
+2025-10-15 09:32:37.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course - 499 null application/json; charset=utf-8 4181.2159ms
+2025-10-15 09:32:37.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course - 499 null application/json; charset=utf-8 676.1545ms
+2025-10-15 09:32:37.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course - 200 null application/json; charset=utf-8 476.8525ms
+2025-10-15 09:32:39.730 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course - null null
+2025-10-15 09:32:39.734 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:39.735 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course - 307 0 null 4.649ms
+2025-10-15 09:32:39.741 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course - null null
+2025-10-15 09:32:39.748 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:39.749 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:39.750 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:32:39.755 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2025-10-15 09:32:39.760 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Course, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:39.763 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server) in 11.099ms
+2025-10-15 09:32:39.765 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:32:39.767 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course - 200 null application/json; charset=utf-8 26.062ms
+2025-10-15 09:32:41.547 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course/1 - null null
+2025-10-15 09:32:41.551 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - null null
+2025-10-15 09:32:41.553 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.555 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.558 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course/1 - 307 0 null 10.8397ms
+2025-10-15 09:32:41.560 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - 307 0 null 9.2655ms
+2025-10-15 09:32:41.561 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course/1 - null null
+2025-10-15 09:32:41.562 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - null null
+2025-10-15 09:32:41.568 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.570 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.571 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:32:41.572 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:32:41.584 +05:30 [INF] Route matched with {action = "GetById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:32:41.584 +05:30 [INF] Route matched with {action = "GetTopicsByCourse", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopicsByCourse(Int32) on controller Tutorial.Server.Controllers.TopicsController (Tutorial.Server).
+2025-10-15 09:32:41.714 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TopicId], [t].[CourseId], [t].[TopicName], [t].[TopicsOrder]
+FROM [Topics] AS [t]
+WHERE [t].[CourseId] = @__courseId_0
+2025-10-15 09:32:41.714 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+WHERE [c].[CourseId] = @__p_0
+2025-10-15 09:32:41.723 +05:30 [INF] Executing OkObjectResult, writing value of type 'Tutorial.Domain.Models.Course'.
+2025-10-15 09:32:41.726 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server) in 139.1414ms
+2025-10-15 09:32:41.728 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:32:41.729 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Topic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:41.730 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course/1 - 200 null application/json; charset=utf-8 168.7093ms
+2025-10-15 09:32:41.735 +05:30 [INF] Executed action Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server) in 145.1156ms
+2025-10-15 09:32:41.741 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:32:41.743 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - 200 null application/json; charset=utf-8 180.4912ms
+2025-10-15 09:32:41.747 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:32:41.750 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:32:41.753 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:32:41.754 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.752 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.763 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:32:41.782 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - 307 0 null 32.5068ms
+2025-10-15 09:32:41.780 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.783 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - 307 0 null 36.1647ms
+2025-10-15 09:32:41.805 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:32:41.806 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - 307 0 null 52.62ms
+2025-10-15 09:32:41.802 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.762 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:32:41.819 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:32:41.818 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:32:41.822 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - 307 0 null 59.6285ms
+2025-10-15 09:32:41.871 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.777 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:32:41.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:32:41.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:32:41.815 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:32:41.871 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:32:41.890 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - 307 0 null 85.215ms
+2025-10-15 09:32:41.893 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.897 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.900 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:32:41.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:32:41.932 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - 307 0 null 110.7949ms
+2025-10-15 09:32:41.934 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - 307 0 null 116.0844ms
+2025-10-15 09:32:41.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - 307 0 null 144.7369ms
+2025-10-15 09:32:41.903 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.906 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.908 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.914 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.927 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.914 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:32:41.924 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:32:41.966 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:32:41.966 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.969 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:42.000 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:41.987 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:41.988 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.005 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:41.991 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:41.993 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.996 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:41.999 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:42.000 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - 307 0 null 99.9885ms
+2025-10-15 09:32:41.986 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - 307 0 null 208.5301ms
+2025-10-15 09:32:41.990 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.007 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.008 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.008 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.010 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.011 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.012 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.020 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.030 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.031 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.032 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.060 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.062 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:32:42.089 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.062 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.062 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:32:42.130 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:42.135 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.136 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.137 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.142 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.144 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:42.145 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.150 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 121.8581ms
+2025-10-15 09:32:42.150 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 142.6602ms
+2025-10-15 09:32:42.150 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 114.2053ms
+2025-10-15 09:32:42.152 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 114.1291ms
+2025-10-15 09:32:42.153 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.154 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.158 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.156 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.160 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.161 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.163 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:32:42.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - 200 null application/json; charset=utf-8 233.9714ms
+2025-10-15 09:32:42.170 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.170 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - 200 null application/json; charset=utf-8 337.5846ms
+2025-10-15 09:32:42.173 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.177 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.186 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.177 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.184 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - 200 null application/json; charset=utf-8 258.096ms
+2025-10-15 09:32:42.174 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - 200 null application/json; charset=utf-8 249.4206ms
+2025-10-15 09:32:42.202 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:32:42.208 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.213 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.216 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 190.9044ms
+2025-10-15 09:32:42.220 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.222 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.234 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:42.235 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 200.677ms
+2025-10-15 09:32:42.237 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 195.9513ms
+2025-10-15 09:32:42.239 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.240 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 218.0727ms
+2025-10-15 09:32:42.242 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 73.8554ms
+2025-10-15 09:32:42.244 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 67.5491ms
+2025-10-15 09:32:42.245 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.247 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.249 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - 200 null application/json; charset=utf-8 456.9361ms
+2025-10-15 09:32:42.250 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.251 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.252 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:32:42.253 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - 200 null application/json; charset=utf-8 438.138ms
+2025-10-15 09:32:42.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - 200 null application/json; charset=utf-8 313.0832ms
+2025-10-15 09:32:42.257 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - 200 null application/json; charset=utf-8 465.3821ms
+2025-10-15 09:32:42.258 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - 200 null application/json; charset=utf-8 197.0184ms
+2025-10-15 09:32:42.259 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - 200 null application/json; charset=utf-8 198.745ms
+2025-10-15 09:32:44.419 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - null null
+2025-10-15 09:32:44.423 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:44.424 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - 307 0 null 5.0811ms
+2025-10-15 09:32:44.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - null null
+2025-10-15 09:32:44.430 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:32:44.431 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:32:44.434 +05:30 [INF] Route matched with {action = "GetContent", controller = "Content"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContent(Int32) on controller Tutorial.Server.Controllers.ContentController (Tutorial.Server).
+2025-10-15 09:32:44.450 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__subtopicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ContentId], [c].[Body], [c].[SubTopicId], [c].[Title]
+FROM [Contents] AS [c]
+WHERE [c].[SubTopicId] = @__subtopicId_0
+2025-10-15 09:32:44.459 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Content, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:32:44.465 +05:30 [INF] Executed action Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server) in 29.0655ms
+2025-10-15 09:32:44.468 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:32:44.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - 200 null application/json; charset=utf-8 42.3984ms
+2025-10-15 09:40:22.614 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - null null
+2025-10-15 09:40:22.623 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:40:22.623 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - 307 0 null 8.7602ms
+2025-10-15 09:40:22.646 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - null null
+2025-10-15 09:40:22.650 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:40:22.651 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:40:22.652 +05:30 [INF] Route matched with {action = "GetContent", controller = "Content"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContent(Int32) on controller Tutorial.Server.Controllers.ContentController (Tutorial.Server).
+2025-10-15 09:40:22.784 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[@__subtopicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ContentId], [c].[Body], [c].[SubTopicId], [c].[Title]
+FROM [Contents] AS [c]
+WHERE [c].[SubTopicId] = @__subtopicId_0
+2025-10-15 09:40:22.793 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Content, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:40:22.795 +05:30 [INF] Executed action Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server) in 141.5023ms
+2025-10-15 09:40:22.797 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:40:22.799 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - 200 null application/json; charset=utf-8 152.3769ms
+2025-10-15 09:41:02.805 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course - null null
+2025-10-15 09:41:02.810 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:02.812 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course - 307 0 null 7.1682ms
+2025-10-15 09:41:02.819 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course - null null
+2025-10-15 09:41:02.832 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:02.833 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:41:02.834 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:41:02.839 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+2025-10-15 09:41:02.844 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Course, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:02.846 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server) in 10.1105ms
+2025-10-15 09:41:02.847 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetAll (Tutorial.Server)'
+2025-10-15 09:41:02.848 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course - 200 null application/json; charset=utf-8 29.1862ms
+2025-10-15 09:41:04.699 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - null null
+2025-10-15 09:41:04.703 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.704 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - 307 0 null 4.8233ms
+2025-10-15 09:41:04.699 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course/1 - null null
+2025-10-15 09:41:04.710 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.710 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course/1 - 307 0 null 10.9346ms
+2025-10-15 09:41:04.710 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - null null
+2025-10-15 09:41:04.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course/1 - null null
+2025-10-15 09:41:04.716 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.721 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.722 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:41:04.724 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:41:04.726 +05:30 [INF] Route matched with {action = "GetTopicsByCourse", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopicsByCourse(Int32) on controller Tutorial.Server.Controllers.TopicsController (Tutorial.Server).
+2025-10-15 09:41:04.728 +05:30 [INF] Route matched with {action = "GetById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:41:04.747 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+WHERE [c].[CourseId] = @__p_0
+2025-10-15 09:41:04.750 +05:30 [INF] Executing OkObjectResult, writing value of type 'Tutorial.Domain.Models.Course'.
+2025-10-15 09:41:04.751 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server) in 17.9313ms
+2025-10-15 09:41:04.752 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:41:04.753 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course/1 - 200 null application/json; charset=utf-8 41.3735ms
+2025-10-15 09:41:04.856 +05:30 [INF] Executed DbCommand (124ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TopicId], [t].[CourseId], [t].[TopicName], [t].[TopicsOrder]
+FROM [Topics] AS [t]
+WHERE [t].[CourseId] = @__courseId_0
+2025-10-15 09:41:04.869 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Topic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:04.870 +05:30 [INF] Executed action Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server) in 140.109ms
+2025-10-15 09:41:04.872 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:41:04.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - 200 null application/json; charset=utf-8 163.1886ms
+2025-10-15 09:41:04.878 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:41:04.889 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:41:04.878 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:41:04.899 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:41:04.903 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:41:04.907 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:41:04.919 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.921 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.926 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.928 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.931 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.934 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - 307 0 null 56.8581ms
+2025-10-15 09:41:04.935 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - 307 0 null 46.7627ms
+2025-10-15 09:41:04.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:41:04.936 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - 307 0 null 58.3467ms
+2025-10-15 09:41:04.937 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - 307 0 null 38.0789ms
+2025-10-15 09:41:04.949 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - 307 0 null 49.5369ms
+2025-10-15 09:41:04.933 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:04.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:41:04.984 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:41:04.985 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:41:05.065 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:41:05.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:41:05.090 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:41:05.101 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:41:05.113 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:41:05.118 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - 307 0 null 211.2736ms
+2025-10-15 09:41:05.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:41:05.121 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.123 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.127 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.129 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.131 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.133 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.134 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.136 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.148 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - 307 0 null 66.281ms
+2025-10-15 09:41:05.149 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - 307 0 null 59.2137ms
+2025-10-15 09:41:05.150 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.157 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - 307 0 null 50.3486ms
+2025-10-15 09:41:05.137 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.156 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:41:05.150 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:41:05.144 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.145 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.146 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.147 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.143 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:41:05.173 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - 307 0 null 60.0214ms
+2025-10-15 09:41:05.176 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:41:05.177 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.179 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.181 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.182 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.183 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.193 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.194 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.194 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.198 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.184 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.205 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.206 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.211 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.265 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.213 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.253 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.213 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.267 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.185 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.185 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.292 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 95.9501ms
+2025-10-15 09:41:05.296 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.301 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.303 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.303 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.187 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:05.319 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.311 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.311 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.312 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.312 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.313 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 109.7245ms
+2025-10-15 09:41:05.331 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.316 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 61.0155ms
+2025-10-15 09:41:05.311 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.320 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:05.321 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.322 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 151.6422ms
+2025-10-15 09:41:05.325 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.327 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - 200 null application/json; charset=utf-8 381.4813ms
+2025-10-15 09:41:05.330 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.315 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 116.2407ms
+2025-10-15 09:41:05.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - 200 null application/json; charset=utf-8 347.5225ms
+2025-10-15 09:41:05.335 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.338 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.344 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:05.345 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.346 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.348 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 77.1888ms
+2025-10-15 09:41:05.353 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 63.9493ms
+2025-10-15 09:41:05.354 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.360 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - 200 null application/json; charset=utf-8 332.7619ms
+2025-10-15 09:41:05.361 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 76.1696ms
+2025-10-15 09:41:05.364 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:05.365 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 46.8767ms
+2025-10-15 09:41:05.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - 200 null application/json; charset=utf-8 429.1696ms
+2025-10-15 09:41:05.367 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.369 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - 200 null application/json; charset=utf-8 386.4781ms
+2025-10-15 09:41:05.375 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.377 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 37.2052ms
+2025-10-15 09:41:05.379 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.383 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - 200 null application/json; charset=utf-8 228.6878ms
+2025-10-15 09:41:05.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - 200 null application/json; charset=utf-8 207.9966ms
+2025-10-15 09:41:05.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - 200 null application/json; charset=utf-8 238.6157ms
+2025-10-15 09:41:05.390 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:05.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - 200 null application/json; charset=utf-8 273.1891ms
+2025-10-15 09:41:05.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - 200 null application/json; charset=utf-8 239.3306ms
+2025-10-15 09:41:07.249 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - null null
+2025-10-15 09:41:07.253 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:07.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - 307 0 null 7.0959ms
+2025-10-15 09:41:07.258 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - null null
+2025-10-15 09:41:07.262 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:07.265 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:41:07.267 +05:30 [INF] Route matched with {action = "GetContent", controller = "Content"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContent(Int32) on controller Tutorial.Server.Controllers.ContentController (Tutorial.Server).
+2025-10-15 09:41:07.273 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__subtopicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ContentId], [c].[Body], [c].[SubTopicId], [c].[Title]
+FROM [Contents] AS [c]
+WHERE [c].[SubTopicId] = @__subtopicId_0
+2025-10-15 09:41:07.278 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Content, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:07.279 +05:30 [INF] Executed action Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server) in 9.4363ms
+2025-10-15 09:41:07.281 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:41:07.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - 200 null application/json; charset=utf-8 23.8315ms
+2025-10-15 09:41:20.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course/1 - null null
+2025-10-15 09:41:20.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - null null
+2025-10-15 09:41:20.075 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.078 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.079 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course/1 - 307 0 null 8.7957ms
+2025-10-15 09:41:20.080 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - 307 0 null 9.71ms
+2025-10-15 09:41:20.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course/1 - null null
+2025-10-15 09:41:20.082 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - null null
+2025-10-15 09:41:20.094 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.096 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.098 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:41:20.097 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:41:20.099 +05:30 [INF] Route matched with {action = "GetTopicsByCourse", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopicsByCourse(Int32) on controller Tutorial.Server.Controllers.TopicsController (Tutorial.Server).
+2025-10-15 09:41:20.100 +05:30 [INF] Route matched with {action = "GetById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:41:20.108 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TopicId], [t].[CourseId], [t].[TopicName], [t].[TopicsOrder]
+FROM [Topics] AS [t]
+WHERE [t].[CourseId] = @__courseId_0
+2025-10-15 09:41:20.108 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+WHERE [c].[CourseId] = @__p_0
+2025-10-15 09:41:20.112 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Topic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.114 +05:30 [INF] Executing OkObjectResult, writing value of type 'Tutorial.Domain.Models.Course'.
+2025-10-15 09:41:20.116 +05:30 [INF] Executed action Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server) in 11.7062ms
+2025-10-15 09:41:20.118 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server) in 11.442ms
+2025-10-15 09:41:20.120 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:41:20.123 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:41:20.125 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - 200 null application/json; charset=utf-8 43.5336ms
+2025-10-15 09:41:20.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course/1 - 200 null application/json; charset=utf-8 45.3631ms
+2025-10-15 09:41:20.130 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:41:20.130 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:41:20.130 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:41:20.130 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:41:20.130 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:41:20.131 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:41:20.141 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.144 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.148 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.151 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.154 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.157 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.158 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - 307 0 null 28.1662ms
+2025-10-15 09:41:20.159 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - 307 0 null 28.9803ms
+2025-10-15 09:41:20.160 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:41:20.160 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - 307 0 null 29.4587ms
+2025-10-15 09:41:20.160 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - 307 0 null 30.1546ms
+2025-10-15 09:41:20.161 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:41:20.161 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - 307 0 null 30.8544ms
+2025-10-15 09:41:20.161 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:41:20.162 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - 307 0 null 31.3359ms
+2025-10-15 09:41:20.162 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:41:20.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:41:20.164 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:41:20.166 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:41:20.169 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:41:20.172 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.176 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:41:20.179 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:41:20.182 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.210 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.194 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.213 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.198 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.200 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - 307 0 null 50.353ms
+2025-10-15 09:41:20.204 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.206 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.209 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.188 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.212 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.196 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.214 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.215 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.203 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.219 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:41:20.220 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.221 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - 307 0 null 45.3687ms
+2025-10-15 09:41:20.233 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - 307 0 null 63.4114ms
+2025-10-15 09:41:20.228 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.223 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - 307 0 null 43.6423ms
+2025-10-15 09:41:20.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:41:20.223 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:41:20.233 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.228 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.232 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.223 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.236 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:41:20.246 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.251 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.256 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.258 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.261 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.263 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.266 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.266 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.266 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.270 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:20.273 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.275 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.276 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.276 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.277 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 46.8356ms
+2025-10-15 09:41:20.279 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 52.785ms
+2025-10-15 09:41:20.283 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.284 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.286 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.288 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.289 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 44.662ms
+2025-10-15 09:41:20.290 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.292 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.294 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.295 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.297 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.300 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.301 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 36.7892ms
+2025-10-15 09:41:20.306 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:41:20.306 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.307 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.310 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.310 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 35.9278ms
+2025-10-15 09:41:20.313 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - 200 null application/json; charset=utf-8 150.951ms
+2025-10-15 09:41:20.314 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.314 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - 200 null application/json; charset=utf-8 153.6306ms
+2025-10-15 09:41:20.316 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 34.8331ms
+2025-10-15 09:41:20.318 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.323 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:41:20.325 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.326 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - 200 null application/json; charset=utf-8 166.2922ms
+2025-10-15 09:41:20.329 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.330 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.337 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.341 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.342 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - 200 null application/json; charset=utf-8 178.3518ms
+2025-10-15 09:41:20.345 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:20.346 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 41.7343ms
+2025-10-15 09:41:20.350 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 41.3567ms
+2025-10-15 09:41:20.351 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - 200 null application/json; charset=utf-8 188.8133ms
+2025-10-15 09:41:20.354 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 41.61ms
+2025-10-15 09:41:20.356 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - 200 null application/json; charset=utf-8 194.2306ms
+2025-10-15 09:41:20.361 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 39.5602ms
+2025-10-15 09:41:20.363 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.364 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.370 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.374 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:41:20.375 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - 200 null application/json; charset=utf-8 156.1983ms
+2025-10-15 09:41:20.376 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - 200 null application/json; charset=utf-8 152.366ms
+2025-10-15 09:41:20.378 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - 200 null application/json; charset=utf-8 154.299ms
+2025-10-15 09:41:20.379 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - 200 null application/json; charset=utf-8 141.7303ms
+2025-10-15 09:41:22.657 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/4 - null null
+2025-10-15 09:41:22.660 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:22.661 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/4 - 307 0 null 4.2152ms
+2025-10-15 09:41:22.662 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/4 - null null
+2025-10-15 09:41:22.668 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:41:22.668 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:41:22.670 +05:30 [INF] Route matched with {action = "GetContent", controller = "Content"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContent(Int32) on controller Tutorial.Server.Controllers.ContentController (Tutorial.Server).
+2025-10-15 09:41:22.677 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__subtopicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ContentId], [c].[Body], [c].[SubTopicId], [c].[Title]
+FROM [Contents] AS [c]
+WHERE [c].[SubTopicId] = @__subtopicId_0
+2025-10-15 09:41:22.683 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Content, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:41:22.684 +05:30 [INF] Executed action Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server) in 9.1819ms
+2025-10-15 09:41:22.686 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:41:22.687 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/4 - 200 null application/json; charset=utf-8 24.4329ms
+2025-10-15 09:44:18.998 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/4 - null null
+2025-10-15 09:44:19.002 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:44:19.003 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/4 - 307 0 null 4.4093ms
+2025-10-15 09:44:19.014 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/4 - null null
+2025-10-15 09:44:19.017 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:44:19.018 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:44:19.020 +05:30 [INF] Route matched with {action = "GetContent", controller = "Content"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContent(Int32) on controller Tutorial.Server.Controllers.ContentController (Tutorial.Server).
+2025-10-15 09:44:19.025 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__subtopicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ContentId], [c].[Body], [c].[SubTopicId], [c].[Title]
+FROM [Contents] AS [c]
+WHERE [c].[SubTopicId] = @__subtopicId_0
+2025-10-15 09:44:19.028 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Content, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:44:19.030 +05:30 [INF] Executed action Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server) in 6.6987ms
+2025-10-15 09:44:19.041 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:44:19.042 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/4 - 200 null application/json; charset=utf-8 28.722ms
+2025-10-15 09:47:36.837 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/4 - null null
+2025-10-15 09:47:36.847 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:47:36.849 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/4 - 307 0 null 11.2725ms
+2025-10-15 09:47:36.857 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/4 - null null
+2025-10-15 09:47:36.862 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:47:36.863 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:47:36.864 +05:30 [INF] Route matched with {action = "GetContent", controller = "Content"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContent(Int32) on controller Tutorial.Server.Controllers.ContentController (Tutorial.Server).
+2025-10-15 09:47:36.868 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__subtopicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ContentId], [c].[Body], [c].[SubTopicId], [c].[Title]
+FROM [Contents] AS [c]
+WHERE [c].[SubTopicId] = @__subtopicId_0
+2025-10-15 09:47:36.872 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Content, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:47:36.873 +05:30 [INF] Executed action Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server) in 6.9479ms
+2025-10-15 09:47:36.876 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:47:36.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/4 - 200 null application/json; charset=utf-8 19.9384ms
+2025-10-15 09:49:02.240 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Course/1 - null null
+2025-10-15 09:49:02.240 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - null null
+2025-10-15 09:49:02.244 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.248 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.249 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Course/1 - 307 0 null 37.2866ms
+2025-10-15 09:49:02.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Course/1 - null null
+2025-10-15 09:49:02.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Topics/ByCourse/1 - 307 0 null 15.8381ms
+2025-10-15 09:49:02.296 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - null null
+2025-10-15 09:49:02.307 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.313 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.313 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:49:02.314 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:49:02.315 +05:30 [INF] Route matched with {action = "GetById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller Tutorial.Server.Controllers.CourseController (Tutorial.Server).
+2025-10-15 09:49:02.316 +05:30 [INF] Route matched with {action = "GetTopicsByCourse", controller = "Topics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTopicsByCourse(Int32) on controller Tutorial.Server.Controllers.TopicsController (Tutorial.Server).
+2025-10-15 09:49:02.321 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[CourseName], [c].[Description]
+FROM [Courses] AS [c]
+WHERE [c].[CourseId] = @__p_0
+2025-10-15 09:49:02.329 +05:30 [INF] Executing OkObjectResult, writing value of type 'Tutorial.Domain.Models.Course'.
+2025-10-15 09:49:02.333 +05:30 [INF] Executed action Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server) in 15.127ms
+2025-10-15 09:49:02.333 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[TopicId], [t].[CourseId], [t].[TopicName], [t].[TopicsOrder]
+FROM [Topics] AS [t]
+WHERE [t].[CourseId] = @__courseId_0
+2025-10-15 09:49:02.334 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.CourseController.GetById (Tutorial.Server)'
+2025-10-15 09:49:02.337 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Topic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Course/1 - 200 null application/json; charset=utf-8 47.9402ms
+2025-10-15 09:49:02.340 +05:30 [INF] Executed action Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server) in 18.6333ms
+2025-10-15 09:49:02.347 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.TopicsController.GetTopicsByCourse (Tutorial.Server)'
+2025-10-15 09:49:02.349 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Topics/ByCourse/1 - 200 null application/json; charset=utf-8 53.4061ms
+2025-10-15 09:49:02.354 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:49:02.354 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:49:02.358 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:49:02.359 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.361 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.366 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/2 - 307 0 null 12.9198ms
+2025-10-15 09:49:02.361 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:49:02.374 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/1 - 307 0 null 20.1391ms
+2025-10-15 09:49:02.365 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.361 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:49:02.383 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:49:02.385 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.389 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:49:02.403 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.406 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/5 - 307 0 null 44.4817ms
+2025-10-15 09:49:02.416 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/7 - 307 0 null 33.3699ms
+2025-10-15 09:49:02.415 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.380 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - null null
+2025-10-15 09:49:02.390 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/3 - 307 0 null 31.975ms
+2025-10-15 09:49:02.400 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.361 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:49:02.427 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:49:02.431 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/8 - 307 0 null 42.8274ms
+2025-10-15 09:49:02.434 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.436 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:49:02.437 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/4 - 307 0 null 76.6866ms
+2025-10-15 09:49:02.374 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - null null
+2025-10-15 09:49:02.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - null null
+2025-10-15 09:49:02.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - null null
+2025-10-15 09:49:02.412 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - null null
+2025-10-15 09:49:02.422 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - null null
+2025-10-15 09:49:02.445 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - null null
+2025-10-15 09:49:02.447 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.450 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.453 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.458 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.463 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - null null
+2025-10-15 09:49:02.479 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/10 - 307 0 null 52.6123ms
+2025-10-15 09:49:02.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - null null
+2025-10-15 09:49:02.481 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.482 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/9 - 307 0 null 46.1031ms
+2025-10-15 09:49:02.478 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Subtopics/ByTopic/6 - 307 0 null 116.765ms
+2025-10-15 09:49:02.465 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.467 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.508 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.474 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.477 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.511 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.488 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.491 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.497 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.501 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.507 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.470 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.509 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.510 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.488 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - null null
+2025-10-15 09:49:02.512 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.514 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.514 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.516 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.519 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.519 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.537 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.546 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.540 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.558 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.611 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 78.6527ms
+2025-10-15 09:49:02.543 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 42.493ms
+2025-10-15 09:49:02.590 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.614 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.591 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.526 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.520 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.526 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.531 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.528 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:02.647 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.647 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.660 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/2 - 200 null application/json; charset=utf-8 291.5487ms
+2025-10-15 09:49:02.678 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.687 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.691 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.698 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.701 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.702 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.704 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/1 - 200 null application/json; charset=utf-8 323.9804ms
+2025-10-15 09:49:02.709 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.711 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 163.7068ms
+2025-10-15 09:49:02.716 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 162.1067ms
+2025-10-15 09:49:02.717 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 193.3105ms
+2025-10-15 09:49:02.721 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.724 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.726 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 196.204ms
+2025-10-15 09:49:02.727 +05:30 [INF] Route matched with {action = "GetSubTopicsByTopic", controller = "SubTopics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubTopicsByTopic(Int32) on controller Tutorial.Server.Controllers.SubTopicsController (Tutorial.Server).
+2025-10-15 09:49:02.733 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 139.4482ms
+2025-10-15 09:49:02.735 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.737 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.740 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.756 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/3 - 200 null application/json; charset=utf-8 359.6063ms
+2025-10-15 09:49:02.744 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 49.4622ms
+2025-10-15 09:49:02.746 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.750 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__topicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SubTopicId], [s].[SubTopicName], [s].[SubTopicsOrder], [s].[TopicId]
+FROM [SubTopics] AS [s]
+WHERE [s].[TopicId] = @__topicId_0
+2025-10-15 09:49:02.751 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.752 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/8 - 200 null application/json; charset=utf-8 319.6509ms
+2025-10-15 09:49:02.754 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/6 - 200 null application/json; charset=utf-8 273.7852ms
+2025-10-15 09:49:02.743 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.763 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.765 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/4 - 200 null application/json; charset=utf-8 320.0453ms
+2025-10-15 09:49:02.768 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.SubTopic, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:02.769 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/10 - 200 null application/json; charset=utf-8 288.3643ms
+2025-10-15 09:49:02.779 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 59.2377ms
+2025-10-15 09:49:02.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/7 - 200 null application/json; charset=utf-8 358.2638ms
+2025-10-15 09:49:02.785 +05:30 [INF] Executed action Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server) in 36.2339ms
+2025-10-15 09:49:02.792 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.797 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.SubTopicsController.GetSubTopicsByTopic (Tutorial.Server)'
+2025-10-15 09:49:02.798 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/5 - 200 null application/json; charset=utf-8 386.3864ms
+2025-10-15 09:49:02.799 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Subtopics/ByTopic/9 - 200 null application/json; charset=utf-8 311.4088ms
+2025-10-15 09:49:04.163 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - null null
+2025-10-15 09:49:04.168 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:04.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:8080/api/Content/BySubtopic/1 - 307 0 null 7.2036ms
+2025-10-15 09:49:04.172 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - null null
+2025-10-15 09:49:04.178 +05:30 [INF] CORS policy execution successful.
+2025-10-15 09:49:04.180 +05:30 [INF] Executing endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:49:04.182 +05:30 [INF] Route matched with {action = "GetContent", controller = "Content"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetContent(Int32) on controller Tutorial.Server.Controllers.ContentController (Tutorial.Server).
+2025-10-15 09:49:04.186 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__subtopicId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ContentId], [c].[Body], [c].[SubTopicId], [c].[Title]
+FROM [Contents] AS [c]
+WHERE [c].[SubTopicId] = @__subtopicId_0
+2025-10-15 09:49:04.189 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tutorial.Domain.Models.Content, Tutorial.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-15 09:49:04.192 +05:30 [INF] Executed action Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server) in 7.0758ms
+2025-10-15 09:49:04.193 +05:30 [INF] Executed endpoint 'Tutorial.Server.Controllers.ContentController.GetContent (Tutorial.Server)'
+2025-10-15 09:49:04.195 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5050/api/Content/BySubtopic/1 - 200 null application/json; charset=utf-8 23.4124ms

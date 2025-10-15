@@ -37,5 +37,11 @@ namespace Tutorial.Service.ServiceImpl
         {
             return await _contentRepository.GetAllAsync();
         }
+
+        public async Task<IEnumerable<Content>> GetContentBySubTopicid(int subtopicId)
+        {
+            return await _contentRepository.GetContentBySubtopic(subtopicId);
+        }
+
     }
 }

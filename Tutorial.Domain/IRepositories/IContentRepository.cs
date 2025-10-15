@@ -15,5 +15,6 @@ namespace Tutorial.Domain.IRepositories
         Task<Content> DeleteByAsync(int id);
         Task<ContentDto> CreatedAsync(ContentDto content);
         Task<IEnumerable<Content>> GetAllAsync();
+        Task<IEnumerable<Content>> GetContentBySubtopic(int subtopicId);
     }
 }

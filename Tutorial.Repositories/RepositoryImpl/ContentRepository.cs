@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -73,6 +74,14 @@ namespace Tutorial.Repositories.RepositoryImpl
                 SubTopicId = existingContent.SubTopicId
             };
         }
+
+        public async Task<IEnumerable<Content>> GetContentBySubtopic(int subtopicId)
+        {
+            return await _context.Contents.
+                Where(c => c.SubTopicId == subtopicId).
+                ToListAsync();
+        }
+
 
     }
 }
