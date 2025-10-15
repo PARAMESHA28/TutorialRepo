@@ -8,7 +8,7 @@ using Tutorial.Service.ServiceImpl;
 
 namespace Tutorial.Server.Controllers
 {
-    [Route(RootMapConstants.BaseControllerRoute)]
+    [Route(RouteMapConstants.BaseControllerRoute)]
     public class ContentController : ControllerBase
 
     {

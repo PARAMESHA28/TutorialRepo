@@ -8,7 +8,7 @@ using Tutorial.Domain.Models.Dtos;
 
 namespace Tutorial.Server.Controllers
 {
-    [Route(RootMapConstants.BaseControllerRoute)]
+    [Route(RouteMapConstants.BaseControllerRoute)]
     public class CourseController : ControllerBase
     {
         public readonly ICourseService _courseService;
